@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-position: center;
+    image-rendering: optimizeQuality;
+}
+#clock-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+#clock{
+    font-size:100px;
+    font-family: monospace;
+    color:white;
+    text-shadow: 0 0 10px white;
+
+}
